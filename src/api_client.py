@@ -15,7 +15,7 @@ class WeatherApiClient:
         self.api_key = API_KEY
         self.timeout = 10  # seconds
 
-    # Fetch city weather details
+    # Fetch city coardinates
     def get_weather(self, city):
         url = f"{self.base_url}/geo/1.0/direct"
         params = {
@@ -30,7 +30,7 @@ class WeatherApiClient:
             # Check HTTP status code
             if response.status_code == 200:
                 logger.info(f"Data fetched successfully for {city}")
-                return response.json()
+                return self.clean_response(response.json())
             elif response.status_code == 401:
                 logger.error("Unauthorized: Check your API key")
             elif response.status_code == 404:
@@ -47,3 +47,11 @@ class WeatherApiClient:
             logger.error(f"API error occurred: {e}")
         
         return None
+    
+    # Clean Json Response
+    def clean_response(self, jsonResponse):
+        cleaned_response = [
+            {k:v for k,v in city.items() if k != 'local_names'}
+            for city in jsonResponse 
+        ]
+        return cleaned_response

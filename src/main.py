@@ -6,9 +6,10 @@ def main():
     data = client.get_weather(city)
 
     if data:
-        print(f"Co-ordinates for {data}")
+        print(f"response data {data}")
     else:
         print("failed to fetch weather data")
+
 
 if __name__ == "__main__":
     main()
