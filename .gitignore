@@ -1,3 +1,5 @@
 # Environment files
 .env
 __pycache__
+*.json
+z_demo_file.py

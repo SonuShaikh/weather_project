@@ -5,6 +5,7 @@ load_dotenv()  # read from .env file
 
 API_BASE_URL = os.getenv("API_BASE_URL")
 API_KEY = os.getenv("API_KEY")
+CAPITAL_CITYS = os.getenv("capital_cities")
 
 
 # Read environment variables
