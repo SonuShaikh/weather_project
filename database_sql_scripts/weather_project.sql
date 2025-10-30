@@ -2,8 +2,8 @@
 
 -- CREATE TABLE TO STORE CITY CO-ORDINATES
 CREATE TABLE IF NOT EXISTS city_info (
-    id SERIAL PRIMARY KEY,
-    city_name VARCHAR(100),
+    id SERIAL,
+    city_name VARCHAR(100) PRIMARY KEY,
     country_code VARCHAR(10),
     state_name VARCHAR(100),
     latitude FLOAT,
@@ -34,7 +34,8 @@ CREATE INDEX indx_weather_city ON weather_data(city_name);
 
 --drop table city_info
 
-
+SELECT * FROM city_info
+SELECT * FROM weather_data;
 
 -- Create user
 --CREATE USER python_user WITH PASSWORD 'secure_password';
