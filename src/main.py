@@ -16,7 +16,7 @@ def main():
         for city in capital_cities:
 
             data = client.get_weather(city)
-            print(json.dumps(data, indent=4))
+            #print(json.dumps(data, indent=4))
             crud_operation.insert_weather_data(data)
 
     except Exception as e:

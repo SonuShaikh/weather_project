@@ -1,6 +1,7 @@
 import requests
 import logging
 import datetime
+from fastapi import FastAPI
 from config.settings import API_BASE_URL, API_KEY
 
 
@@ -16,6 +17,7 @@ class WeatherApiClient:
         self.base_url = API_BASE_URL
         self.api_key = API_KEY
         self.timeout = 10  # seconds
+        self.app = FastAPI()
 
     # Fetch city coardinates
     def get_cityinfo(self, city):
@@ -106,3 +108,7 @@ class WeatherApiClient:
             "recorded_at": datetime.datetime.fromtimestamp(data.get("dt")).isoformat(),
             "raw_data": data  
         }
+    
+    # Fast Api test method
+    
+

@@ -1,33 +1,37 @@
 #capital citi list
 capital_cities = [
-                    "Washington, D.C.",   # USA
-                    "Ottawa",             # Canada
-                    "London",             # UK
-                    "Paris",              # France
-                    "Berlin",             # Germany
-                    "Tokyo",              # Japan
-                    "Beijing",            # China
-                    "New Delhi",          # India
-                    "Canberra",           # Australia
-                    "Brasília",           # Brazil
-                    "Moscow",             # Russia
-                    "Rome",               # Italy
-                    "Madrid",             # Spain
-                    "Seoul",              # South Korea
-                    "Bangkok",            # Thailand
-                    "Cairo",              # Egypt
-                    "Buenos Aires",       # Argentina
-                    "Mexico City",        # Mexico
-                    "Jakarta",            # Indonesia
-                    "Nairobi",            # Kenya
-                    "Riyadh",             # Saudi Arabia
-                    "Stockholm",          # Sweden
-                    "Oslo",               # Norway
-                    "Helsinki",           # Finland
-                    "Vienna",             # Austria
-                    "Lisbon",             # Portugal
-                    "Warsaw",             # Poland
-                    "Athens",             # Greece
-                    "Kuala Lumpur",       # Malaysia
-                    "Singapore"           # Singapore
-                ]
+    "Kabul", "Tirana", "Algiers", "Andorra la Vella", "Luanda", "Saint John's",
+    "Buenos Aires", "Yerevan", "Canberra", "Vienna", "Baku", "Nassau",
+    "Manama", "Dhaka", "Bridgetown", "Minsk", "Brussels", "Belmopan",
+    "Porto-Novo", "Thimphu", "La Paz", "Sucre", "Sarajevo", "Gaborone",
+    "Brasília", "Bandar Seri Begawan", "Sofia", "Ouagadougou", "Gitega",
+    "Phnom Penh", "Yaoundé", "Ottawa", "Praia", "Bangui", "N'Djamena",
+    "Santiago", "Beijing", "Bogotá", "Moroni", "Brazzaville", "Kinshasa",
+    "San José", "Zagreb", "Havana", "Nicosia", "Prague", "Copenhagen",
+    "Djibouti", "Roseau", "Santo Domingo", "Quito", "Cairo", "San Salvador",
+    "Malabo", "Asmara", "Tallinn", "Eswatini (Mbabane)", "Addis Ababa",
+    "Suva", "Helsinki", "Paris", "Libreville", "Banjul", "Tbilisi", "Berlin",
+    "Accra", "Athens", "Saint George’s", "Guatemala City", "Conakry",
+    "Bissau", "Georgetown", "Port-au-Prince", "Tegucigalpa", "Budapest",
+    "Reykjavík", "New Delhi", "Jakarta", "Tehran", "Baghdad", "Dublin",
+    "Jerusalem", "Rome", "Kingston", "Tokyo", "Amman", "Nur-Sultan",
+    "Nairobi", "Tarawa", "Pristina", "Kuwait City", "Bishkek", "Vientiane",
+    "Riga", "Beirut", "Maseru", "Monrovia", "Tripoli", "Vaduz", "Vilnius",
+    "Luxembourg City", "Antananarivo", "Lilongwe", "Kuala Lumpur",
+    "Malé", "Bamako", "Valletta", "Majuro", "Nouakchott", "Port Louis",
+    "Mexico City", "Palikir", "Chisinau", "Monaco", "Ulaanbaatar",
+    "Podgorica", "Rabat", "Maputo", "Naypyidaw", "Windhoek", "Yaren",
+    "Kathmandu", "Amsterdam", "Wellington", "Managua", "Niamey", "Abuja",
+    "Pyongyang", "Skopje", "Oslo", "Muscat", "Islamabad", "Ngerulmud",
+    "Jerusalem (Palestine)", "Panama City", "Port Moresby", "Asunción",
+    "Lima", "Manila", "Warsaw", "Lisbon", "Doha", "Bucharest", "Moscow",
+    "Kigali", "Basseterre", "Castries", "Kingstown", "Apia", "San Marino",
+    "São Tomé", "Riyadh", "Dakar", "Belgrade", "Victoria", "Freetown",
+    "Singapore", "Bratislava", "Ljubljana", "Honiara", "Mogadishu",
+    "Pretoria", "Seoul", "Juba", "Madrid", "Colombo", "Khartoum", "Paramaribo",
+    "Stockholm", "Bern", "Damascus", "Taipei", "Dushanbe", "Dodoma",
+    "Bangkok", "Lomé", "Nuku'alofa", "Port of Spain", "Tunis", "Ankara",
+    "Ashgabat", "Funafuti", "Kampala", "Kyiv", "Abu Dhabi", "London",
+    "Washington, D.C.", "Montevideo", "Tashkent", "Port Vila", "Vatican City",
+    "Caracas", "Hanoi", "Sanaa", "Lusaka", "Harare"
+]
