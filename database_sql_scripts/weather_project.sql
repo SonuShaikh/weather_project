@@ -35,7 +35,10 @@ CREATE INDEX indx_weather_city ON weather_data(city_name);
 --drop table city_info
 
 SELECT * FROM city_info
+
 SELECT * FROM weather_data;
+
+SELECT city_name, count(*) from weather_data GROUP BY city_name;
 
 -- Create user
 --CREATE USER python_user WITH PASSWORD 'secure_password';
